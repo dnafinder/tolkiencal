@@ -44,7 +44,7 @@ Syntax: 	TOLKIENCAL(date,format)
 
 
           Created by Giuseppe Cardillo
-          giuseppe.cardillo-edta@poste.it
+          giuseppe.cardillo.75@gmail.com
 
 To cite this file, this would be an appropriate format:
 Cardillo G. (2007) Tolkiencal: convert a date into the Shire calendar.
