@@ -27,8 +27,8 @@ function out = tolkiencal(dateIn, format)
 %
 %   format — Optional. Used only when dateIn is char/string.
 %            Allowed formats:
-%            'dd-mmm-yyyy', 'mm/dd/yy', 'mmm.dd,yyyy',
-%            'mm/dd/yyyy', 'dd/mm/yyyy', 'yy/mm/dd', 'yyyy/mm/dd'
+%            'dd-MMM-yyyy', 'MM/dd/yy', 'MMM.dd,yyyy',
+%            'MM/dd/yyyy', 'dd/MM/yyyy', 'yy/MM/dd', 'yyyy/MM/dd'
 %
 % OUTPUT:
 %   If no output argument → displays the date.
@@ -49,9 +49,9 @@ function out = tolkiencal(dateIn, format)
 
 
 %% Setup: defaults and allowed formats
-validFormat = {'dd-mmm-yyyy','mm/dd/yy','mmm.dd,yyyy','mm/dd/yyyy', ...
-               'dd/mm/yyyy','yy/mm/dd','yyyy/mm/dd'};
-defaultFormat = validFormat{5}; % 'dd/mm/yyyy'
+validFormat = {'dd-MMM-yyyy','MM/dd/yy','MMM.dd,yyyy','MM/dd/yyyy', ...
+               'dd/MM/yyyy','yy/MM/dd','yyyy/MM/dd'};
+defaultFormat = validFormat{5}; % 'dd/MM/yyyy'
 
 if nargin < 1
     dateIn = datetime('today');
